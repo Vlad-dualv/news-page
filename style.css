@@ -23,8 +23,52 @@ img {
 a {
   text-decoration: none;
   display: block;
+  color: inherit;
 }
 
 ul {
   list-style: none;
+}
+
+header {
+  color: white;
+  background-color: #000d1f;
+}
+
+.header-container {
+  padding: 25px 115px;
+}
+
+.header-navigation {
+  display: grid;
+  grid-template-columns: 238px 1fr;
+  align-items: center;
+  align-content: space-between;
+}
+
+.logo {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 28.54px;
+  border-left: 1px solid #f2994a;
+  padding: 0px 10px;
+
+  &:hover {
+    color: #f2994a;
+  }
+}
+
+.navigation-list {
+  display: flex;
+  gap: 30px;
+  justify-self: end;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.navigation-list a:hover,
+.navigation-list a:focus {
+  color: #f2994a;
 }

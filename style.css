@@ -94,13 +94,15 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  row-gap: 81px;
+  row-gap: 40px;
 }
 
 footer .logo {
+  height: 62px;
   font-size: 48.05px;
   align-self: center;
-  justify-self: start;
+  align-content: center;
+  justify-self: center;
 }
 
 footer p,
